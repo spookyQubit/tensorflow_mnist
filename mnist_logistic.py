@@ -50,4 +50,4 @@ with tf.Session() as sess:
                             X: mnist.test.images,
                             y_true: mnist.test.labels
                         })
-    print("test accuaracy = {0}".format(test_acc))
+    print("test accuracy = {0}".format(test_acc))
