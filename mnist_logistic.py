@@ -3,6 +3,8 @@ from tensorflow.contrib.learn.python.learn.datasets.mnist import read_data_sets
 
 """
 Purpose: Use logistic regression to classify mnist dataset
+Optimizer: GradientDescentOptimizer
+Learning Rate: 0.003
 Achieved test accuracy: 92.6%
 """
 
